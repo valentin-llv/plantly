@@ -1,0 +1,22 @@
+{
+    "files.exclude": {
+        // Exclude node_modules from the file explorer
+        "**/node_modules": true,
+        "package-lock.json": true,
+        "package.json": true,
+
+        // Nuxt related files
+        ".nuxt": true,
+
+        // Vue and ts related files
+        "tsconfig.json": true,
+
+        // Eslint and prettier
+        "eslint.config.mjs": true,
+        ".prettierrc": true,
+        ".prettierignore": true,
+
+        // Git related files
+        ".gitignore": true
+    }
+}
